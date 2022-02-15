@@ -1,0 +1,563 @@
+JFDML JFormDesigner: "7.0.5.2.410" Java: "11.0.13" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				"background": &Color0 new java.awt.Color( 102, 102, 255, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Mã độc giả:"
+					"foreground": &Color1 new java.awt.Color( 255, 255, 255, 255 )
+					"horizontalAlignment": 2
+					"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 30
+					"y": 20
+					"width": 95
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfMadocgia"
+					"background": &Color2 new java.awt.Color( 255, 255, 255, 255 )
+					"foreground": &Color3 new java.awt.Color( 0, 0, 0, 255 )
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 125
+					"y": 20
+					"width": 180
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Họ và tên:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Tuổi:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Địa chỉ:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Số điện thoại:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "GIới tính:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 140
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfHovaten"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 125
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfSodienthoai"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfTuoi"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 125
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbGioitinh1"
+					"foreground": sfield java.awt.Color black
+					"background": &Color4 new java.awt.Color( 255, 255, 255, 255 )
+					"model": &DefaultComboBoxModel0 new javax.swing.DefaultComboBoxModel {
+						selectedItem: "Nam"
+						addElement( "Nam" )
+						addElement( "Nữ" )
+					}
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 125
+					"y": 140
+					"width": 100
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfDiachi"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 125
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Email:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "Tên sách:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "Ngày mượn:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 140
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "Ngày trả:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfEmail"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfTensach"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfNgaymuon"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 140
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfNgaytra"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "OK"
+					"foreground": &Color5 new java.awt.Color( 255, 255, 255, 255 )
+					"background": &Color6 new java.awt.Color( 255, 102, 255, 255 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "btOKMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "btOKMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 290
+					"y": 235
+					"width": 90
+					"height": 35
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 345
+				"width": 670
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel2"
+				"background": #Color0
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label11"
+					"text": "Mã độc giả:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 30
+					"y": 20
+					"width": 95
+					"height": 25
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfMadocgia2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 135
+					"y": 20
+					"width": 180
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "Họ và tên:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "Tuổi:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "Địa chỉ:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label15"
+					"text": "Số điện thoại:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label16"
+					"text": "GIới tính:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 140
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfHovaten2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 135
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfSodienthoai2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 20
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfTuoi2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 135
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "cbGioitinh2"
+					"foreground": sfield java.awt.Color black
+					"background": #Color4
+					"model": #DefaultComboBoxModel0
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 135
+					"y": 140
+					"width": 100
+					"height": 30
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfDiachi2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 135
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label17"
+					"text": "Email:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label18"
+					"text": "Tên sách:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label19"
+					"text": "Ngày mượn:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 140
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label20"
+					"text": "Ngày trả:"
+					"foreground": #Color1
+					"horizontalAlignment": 2
+					"font": #SwingDerivedFont0
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 100
+					"height": 25
+					"x": 345
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfEmail2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 60
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfTensach2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 100
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfNgaymuon2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 140
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "tfNgaytra2"
+					"background": #Color2
+					"foreground": #Color3
+					auxiliary() {
+						"JavaCodeGenerator.variableModifiers": 1
+					}
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 180
+					"height": 30
+					"x": 450
+					"y": 180
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "OK"
+					"foreground": #Color5
+					"background": #Color6
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "btOKMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "btOKMouseClicked", true ) )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 290
+					"y": 235
+					"width": 90
+					"height": 35
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"height": 345
+				"width": 670
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 90, 25 )
+			"size": new java.awt.Dimension( 670, 315 )
+		} )
+	}
+}
